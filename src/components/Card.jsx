@@ -44,7 +44,7 @@ const mediya = data.media_type ?? media_type
       <div>
         {trending && (
           <div className="absolute top-2">
-            <p className="px-3 rounded-r-full backdrop-blur-3xl bg-slate-300 font-semibold ">
+            <p className="px-3 rounded-r-full text-black backdrop-blur-3xl bg-cyan-300 font-semibold ">
               #Trending{index + 1}{" "}
             </p>
           </div>
